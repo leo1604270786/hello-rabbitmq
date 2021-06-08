@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: rabbitmq-provider
+  #rabbitmq配置
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: rabbit
+    password: 123456
+    #开启处理 rabbitmq 返回的消息
+    publisher-returns: true

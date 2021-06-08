@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: rabbitmq-consumer
+  #rabbitmq配置
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: rabbit
+    password: 123456
